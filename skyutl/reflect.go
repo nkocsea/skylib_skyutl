@@ -7,7 +7,7 @@ import (
 
 	"github.com/lingdor/stackerror"
 	"github.com/stoewer/go-strcase"
-	"suntech.com.vn/skylib/skylog.git/skylog"
+	"github.com/nkocsea/skylib_skylog/skylog"
 )
 
 func recoverSetReflectValue(structName, fieldName string, field reflect.Value, value interface{}) {

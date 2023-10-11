@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"suntech.com.vn/skylib/skylog.git/skylog"
+	"github.com/nkocsea/skylib_skylog/skylog"
 )
 
 func BuildServiceUrl(urlOrServiceAddr, path string) (string, error) {

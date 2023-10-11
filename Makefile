@@ -1,15 +1,15 @@
 wrun:
-	go env -w GOPRIVATE=suntech.com.vn/skylib/skylog.git
+	go env -w GOPRIVATE=github.com/nkocsea/skylib_skylog
 	go run src/main.go
 
 run:
-	go env -w GOPRIVATE=suntech.com.vn/skylib/skylog.git
+	go env -w GOPRIVATE=github.com/nkocsea/skylib_skylog
 	reflex -r '\.go' -s -- sh -c "go run src/main.go"
 
 tidy:
 	go clean -modcache
 	rm -Rf go.sum
-	go env -w GOPRIVATE=suntech.com.vn/skylib/skylog.git
+	go env -w GOPRIVATE=github.com/nkocsea/skylib_skylog
 	go mod tidy
 
 tags:

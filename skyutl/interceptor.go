@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/metadata"
 
 	"google.golang.org/grpc"
-	"suntech.com.vn/skylib/skylog.git/skylog"
+	"github.com/nkocsea/skylib_skylog/skylog"
 )
 
 var (

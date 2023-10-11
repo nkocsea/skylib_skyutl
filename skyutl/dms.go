@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"suntech.com.vn/skylib/skylog.git/skylog"
+	"github.com/nkocsea/skylib_skylog/skylog"
 )
 
 type ReadDocInfo struct {

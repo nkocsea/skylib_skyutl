@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"suntech.com.vn/skylib/skylog.git/skylog"
+	"github.com/nkocsea/skylib_skylog/skylog"
 )
 
 //Print function

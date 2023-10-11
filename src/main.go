@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"suntech.com.vn/skylib/skyutl.git/config"
-	"suntech.com.vn/skylib/skyutl.git/skyutl"
+	"github.com/nkocsea/skylib_skyutl/config"
+	"github.com/nkocsea/skylib_skyutl/skyutl"
 )
 
 type PT struct {
