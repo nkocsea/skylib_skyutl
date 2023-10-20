@@ -14,5 +14,5 @@ require (
 	golang.org/x/text v0.3.0
 	google.golang.org/genproto v0.0.0-20210204154452-deb828366460
 	google.golang.org/grpc v1.35.0
-	github.com/nkocsea/skylib_skylog v1.0.0
+	github.com/nkocsea/skylib_skylog v1.1.2
 )
